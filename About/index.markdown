@@ -10,6 +10,9 @@ Quick and simple, I <mark>make stuff for the web</mark> as both a
 career over the last few years so it's time to get some more hobby - something 
 I hope my [GitHub] account will help with. 	
 
+I've almost 20 years' experience in online software development and managed deployments 
+of web-based software across a range of corporate environments in a number of countries.
+
 ##What?
 I have a background in
 Electrical Engineering (Communications) and currently work as the CTO for a 
