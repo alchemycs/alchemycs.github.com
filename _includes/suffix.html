@@ -1,0 +1,124 @@
+    	</div>
+    	<aside class="col02">
+    		<nav class="recent-posts">
+    			<ul>
+    			{% for post in site.posts limit:5 %} 
+    				<li>
+    					<a href="{{post.url}}">{{post.title}}</a>
+    				</li>
+    			{% endfor %}
+    			</ul>
+				<div class="postit-bottom">
+					<a href="/Archives/">All Posts</a>
+				</div>    			
+    		</nav>
+    		<div id="catagoryContainer" style="display:none">
+	    		<div class="categories-top"></div>
+	    		<nav class="categories">
+	    			<ul>
+	    				<li>
+	    					<a href="#">Cat1</a>
+	    				</li>
+	    				<li>
+	    					<a href="#">Cat2</a>
+	    				</li>
+	    			</ul>
+	    		</nav>
+	    		<div class="categories-bottom"></div>
+	    	</div><!-- end of category container -->
+		<nav>
+		<h1>Other Links</h1>
+		  <ul>
+		    <li>
+    			<a href="http://twitter.com/alchemycs" title="Follow me on twitter">Twitter</a>		    
+		    </li>
+		    <li>
+    			<a href="http://github.com/alchemycs" title="My projects on GitHub">GitHub Projects</a>
+		    </li>
+		    <li>
+    			<a href="http://earthexplorer.info"
+    	title="Earth Explorer - Live!">Earth Explorer - Live!</a>
+		    </li>
+		    <li>
+    			<a href="http://alchemycs.github.com/EarthExplorer"
+    	title="Earth Explorer Blog">Earth Explorer Blog</a>
+		    </li>
+		    <li>
+    			<a href="http://careerprogrammer.tumblr.com"
+    	title="Career Programmer Blog">Career Programmer Blog</a>
+		    </li>
+		    <li>
+    			<a href="http://complispace.github.com" title="CompliSpace Developer Blog">CompliSpace Developer Blog</a>
+		    </li>
+		    <li>
+    			<a href="http://linkedin.com/in/mrmchugh"
+    	title="Linked IN">Linked IN</a>
+		    </li>
+		  </ul>
+		</nav>
+		<section style="padding-top: .5em;">
+		  <h1>Employment and Work</h1>
+		  I'm certainly open to short term, or long term
+    	casual work opportunities. Drop me a line and let's see how I
+    	can help on your project!
+		 </section>
+	</aside>
+    </div>
+    <footer>
+    	<div class="background"></div>
+    	<div class="txt">
+    		<p>
+	    		This is where I will be focussing on my own development 
+	    		projects. It could be experiments, ideas or full blown projects 
+	    		- I have a few in mind. Please feel free to email me: <a href='mailto:alchemist@alchemycs.net.au'>&#097;&#108;&#099;&#104;&#101;&#109;&#105;&#115;&#116;&#064;&#097;&#108;&#099;&#104;&#101;&#109;&#121;&#099;&#115;&#046;&#110;&#101;&#116;&#046;&#097;&#117;</a>
+    		</p>
+   	</div>
+    	<span class="rss">
+    		<a href="/rss-feed.xml">Get the feed!</a>
+    	</span>
+    </footer>
+
+
+  <!-- Javascript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+  
+  
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="/js/plugins.js"></script>
+  <script src="/js/script.js"></script>
+  <!-- end concatenated and minified scripts-->
+  
+  
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
+  <!-- yui profiler and profileviewer - remove for production -->
+  <!-- 
+  <script src="js/profiling/yahoo-profiling.min.js"></script>
+  <script src="js/profiling/config.js"></script>
+   -->
+  <!-- end profiling code -->
+
+
+  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
+       change the UA-XXXXX-X to be your site's ID -->
+  <script>
+  /*
+   var _gaq = [['_setAccount', 'UA-21775306-1'], ['_trackPageview']];
+   (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+   */
+  </script>
+  
+</body>
+</html>

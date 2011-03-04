@@ -1,0 +1,18 @@
+{% include prefix.html %}
+<section>
+	<article class="post">
+		<h1><a href="{{page.url}}">{{page.title}}</a></h1>
+		<div class="post-content">
+			<time datetime="{{page.date | date: "%Y-%m-%d" }}" class="date-tab">
+				<span class="month">{{page.date | date: "%B" }}</span>
+				<span class="day">{{page.date | date: "%d" }}</span>
+			</time>
+			{{content}}
+			<div class="meta">
+				<!--posted under <a href="#">category</a> | <a href="#">comments</a>-->
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="alchemycs">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+		</div>
+	</article>
+</section>
+{% include suffix.html %}
