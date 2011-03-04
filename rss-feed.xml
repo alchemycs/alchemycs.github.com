@@ -1,0 +1,18 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>GitHub Development Blog for AlchemyCS</title>
+		<description>This is where I will be focussing on my own development projects.</description>
+		<link>http://alchemycs.github.com/</link>
+		{% for post in site.posts %}
+			<item>
+				<title>{{ post.title }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<link>http://alchemycs.github.com{{ post.url }}</link>
+				<pubDate>{{ post.date | date: "%a, %d %B %Y 00:00:00 GMT+10" }}</pubDate>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

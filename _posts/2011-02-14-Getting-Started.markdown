@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: post
 title: Getting Started, EarthExplorer.info
 ---
 
