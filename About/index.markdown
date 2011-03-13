@@ -26,7 +26,7 @@ I'm based in [Australia], with strong links to [Thailand][] (both family and
 family business). But seriously - on the Internet who cares?
 
 ##How?
-Like any web developer with their salt, I have quite an extensive range of knowledge
+Like any web developer worth their salt, I have quite an extensive range of knowledge
 in all things Internet related, but the technologies I tend to gravitate toward when developing
 include (but are most *definitely not limited to*):
 
