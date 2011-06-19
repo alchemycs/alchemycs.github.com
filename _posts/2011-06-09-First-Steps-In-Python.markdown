@@ -3,10 +3,10 @@ layout: post
 title: First Steps In Python
 ---
 
-I'm a long term PHP programmer - I have a lot of time, money and knowledge 
-invested in the language. However I'm too comfortable with it and so to avoid
+As a long term PHP programmer, I have a lot of time, money and knowledge 
+invested into the language. However I'm too comfortable with it and so to avoid
 stagnation I've begun looking at the [Python language], the [Django framework] and
-hosting methods such as Google App Engine.
+hosting methods such as [Google App Engine].
 
 And so without further ado I  present my first Python class - a class to build 
 CompliSpace Fundamanetals referred login URL's
@@ -19,3 +19,4 @@ CompliSpace Fundamanetals referred login URL's
 
 [Python Language]: http://www.python.org/
 [Django framework]: https://www.djangoproject.com/
+[Google App Engine]: http://code.google.com/appengine/
