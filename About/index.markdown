@@ -5,21 +5,23 @@ title: About
 
 ##Who?
 <img src="http://www.gravatar.com/avatar/1d1aba67234940d48ce5395152eacaa7.png" style="float:right; border: 1px solid #888; padding:.5em; margin:.5em; width:80px; height:80px; border-radius: 5px; -webkit-box-shadow: 5px 5px 5px #888"/>
-Quick and simple, I <mark>make stuff for the web</mark> as both a 
-[career][Career Programmer] and as a [hobby]. I must admit it has been more about
-career over the last few years so it's time to get some more hobby - something 
-I hope my [GitHub] account will help with. 	
+I'm an IT professional and full stack web developer who implements web 
+technology solutions that enable over 80 of Australia’s top ASX listed and 
+Financial Services companies meet their Compliance and Risk obligations.
 
-I've almost 20 years' experience in online software development and managed deployments 
-of web-based software across a range of corporate environments in a number of countries.
+Simply, I <mark>make stuff for the web</mark>.
+
+With almost 20 years worth of online and communications development experience 
+in a number of countries, I'm looking to move more into a developer evangelism 
+role.
+
+I enjoy tinkering with new technologies and building sites from them so that I 
+can use them to their fullest once they are stable.
 
 ##What?
-I have a background in
-Electrical Engineering (Communications) and currently work as the CTO for a 
-company that provides *legally inspired organisational content integration* 
-where I develop and manage <mark>over 60 intranet sites</mark> for various
-*ASX listed* and *financial services* companies.
-
+I've worked on wide raging projects that encompass telephony systems, cloud 
+migrations & hosting and developing a system to allow site administrators of a 
+closed [CMS][KomodoCMS] system to easily share content between over 80 sites.
 
 ##Where?
 I'm based in [Australia], with strong links to [Thailand][] (both family and 
@@ -32,9 +34,10 @@ include (but are most *definitely not limited to*):
 
 - The Agavi enterprise grade PHP application framework
 - PostgreSQL (preferred), YQL, MySQL
-- PHP, JavaScript (I like using YUI)
+- PHP, JavaScript (node, jQuery, YUI), Python
 - HTML5/CSS3
 - Apache web server
+- Amazon Web Services, Google App Engine
 - Asterisk (open PBX server)
 - Git, Phing, SVN
 - I also have proficiencies and familiarity with a whole swag of acronyms - if you want to know, just ask!
@@ -57,6 +60,7 @@ PO BOX 1183
 [Broadway]: http://www.earthexplorer.info/Explore/7225577-Broadway-Suburb-Australia#locationDetail
 [2007]: http://www.earthexplorer.info/Explore/12706667-2007-Postal-Code-Australia#locationDetail
 [NSW]: http://www.earthexplorer.info/Explore/2344700-New-South-Wales-State-Australia#locationDetail
+[KomodoCMS]: http://www.komosion.com
 
 *[CTO]: Chief Technical Officer
 *[ASX]: Australian Stock Exchange
