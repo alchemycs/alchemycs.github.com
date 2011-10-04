@@ -17,6 +17,7 @@ Below is a recording of the presentation and various links to the resources used
 
 I hope you find it useful, and I appreciate any comments you may have.
 
+<mark>(If you can't see the video below, then you can <a href="http://goo.gl/e0SXE">download the video directly</a> until I convert to more codecs)</mark>
 <video controls="controls" style="width: 450px;" src="https://s3.amazonaws.com/static.complispace.com/michael/presentations/The+Importance+of+Information+Security/Why+Is+Information+Security+Important.m4v">
 <a href="https://s3.amazonaws.com/static.complispace.com/michael/presentations/The+Importance+of+Information+Security/Why+Is+Information+Security+Important.m4v">whyisinformationsecurityimportant.m4v</a>
 </video>
