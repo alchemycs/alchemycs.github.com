@@ -43,7 +43,7 @@ include (but are most *definitely not limited to*):
 - I also have proficiencies and familiarity with a whole swag of acronyms - if you want to know, just ask!
 
 ##Contact!
-Please feel free to email me: <alchemist@alchemycs.net.au>
+Please feel free to email me: <developer@yrucalling.me>
 
 Or send a postcard to:  
 PO BOX 1183  
