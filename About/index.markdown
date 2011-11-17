@@ -5,9 +5,10 @@ title: About
 
 ##Who?
 <img src="http://www.gravatar.com/avatar/1d1aba67234940d48ce5395152eacaa7.png" style="float:right; border: 1px solid #888; padding:.5em; margin:.5em; width:80px; height:80px; border-radius: 5px; -webkit-box-shadow: 5px 5px 5px #888"/>
-I'm an IT professional and full stack web developer who implements web 
-technology solutions that enable over 80 of Australia’s top ASX listed and 
-Financial Services companies meet their Compliance and Risk obligations.
+I'm an IT professional and [full stack web developer](http://alchemycs.github.com/2011/07/20/What_Is_A_Full_Stack_Web_Developer_-_Part_1_of_3.html)
+ who implements web technology solutions that enable almost 90 of Australia's top 
+ASX listed and Financial Services companies meet their Governance, Compliance and 
+Risk obligations.
 
 Simply, I <mark>make stuff for the web</mark>.
 
