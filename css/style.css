@@ -223,7 +223,7 @@ button {  width: auto; overflow: visible; }
     Author: 
  */
 
-body {
+ body {
 	background:url(/images/page-back.jpg) no-repeat top center #3f808a;
 	margin:0;
 	font-family: Tahoma, Arial, Helvetica, sans-serif;
@@ -402,6 +402,7 @@ body {
 	margin:0;
 	padding:0 0 16px;
 	background:url(/images/line.gif) repeat-x bottom;
+        margin-top: 16px;
 }
 #content .col01 h1 a {
 	color:#000;
