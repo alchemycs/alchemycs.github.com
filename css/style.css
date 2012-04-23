@@ -600,6 +600,15 @@ footer .rss a {
 	overflow:hidden;
 	background:url(/images/icon-rss.gif) no-repeat 0 0;
 }
+
+section.coderwall {
+    
+}
+div.coderwall-logo {
+    
+    text-align: center;
+}
+
 /*
  * Media queries for responsive design
  * These follow after primary styles so they will successfully override. 
