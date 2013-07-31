@@ -1,0 +1,251 @@
+<!doctype html>  
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <base href="/">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>What Is A Full Stack Web Developer - Part 1 of 3 - GitHub Development Blog for AlchemyCS</title>
+  <meta name="description" content="GitHub Development Blog for AlchemyCS">
+  <meta name="author" content="AlchemyCS">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="/css/style.css?v=2">
+  <link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
+
+
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+ 
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="/js/libs/modernizr-1.6.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+	<div id="search" >
+	  (Sorry, not yet available)
+	  <!--
+	  <form method="get" id="searchform" action="">
+	    <input type="text" value="this doesn't work" name="s" id="s" class="txtField" />
+	    <input type="submit" id="searchsubmit" class="btnSearch" value="Find It &raquo;" />
+	  </form>
+	  -->
+	</div>
+    <nav id="primaryNavigation" >
+    	<ul>
+    		<li id="home"><a href="/">Home</a></li>
+    		<li id="about"><a href="/About/">About</a></li>
+    		<li id="archives"><a href="/Archives/">Archives</a></li>
+    	</ul>
+    </nav>
+    <header id="title">
+		<h1>What Is A Full Stack Web Developer - Part 1 of 3</h1>
+		<a href="http://github.com/alchemycs/">Development Blog for AlchemyCS on GitHub</a>
+    </header>
+  </div> <!--! end of #container -->
+    <div id="content" class="clearfix">
+    	<div class="col01">
+
+<section>
+	<article class="post">
+		<h1><a href="/2011/07/20/What_Is_A_Full_Stack_Web_Developer_-_Part_1_of_3.html">What Is A Full Stack Web Developer - Part 1 of 3</a></h1>
+		<div class="post-content">
+			<time datetime="2011-07-20" class="date-tab">
+				<span class="month">July</span>
+				<span class="day">20</span>
+			</time>
+			<p>When people ask me what I am I tell them I&#8217;m a &#8220;Full Stack Web Developer&#8221; which often has the response, &#8220;Oh..computers?&#8221;</p>
+
+<p>Fair enough&#8230;</p>
+
+<p>So to help friends, family and colleagues to understand what I do I put together this little presentation and screen cast.</p>
+
+<p>Essentially what&#8217;s different from a full stack web developer and another web developer is a deeper understanding on the underlying web technologies, the ability to run a complete network &amp; hosting structure, and a broader understanding of parallel technologies.</p>
+<iframe src='http://www.screenr.com/embed/jnUs' width='450' frameborder='0' height='274'>
+</iframe>
+<h2 id='part_1__the_hosting_system'>Part 1 - The Hosting System</h2>
+
+<p>Every web application and web site has to be come from somewhere, this is the hosting system. A web site could be somewhere local such as the free web hosting your ISP provides, or it could be on a dedicated server you rent somewhere.</p>
+
+<p>The full stack web developer will configure and provide the whole underlying structure for your web application. This will involve sourcing an appropriate server and provision hosting in a data center. It could also be a cloud service such as Amazon Web Services or Google App Engine.</p>
+
+<p>Next comes the installation of the <a href='http://en.wikipedia.org/wiki/Operating_system'>Operating System</a> (OS). This is what makes the computer work in the first place. It coordinates between all the hardware input/output devices and the <a href='http://en.wikipedia.org/wiki/Computer_program'>programs</a> that run on the computer</p>
+
+<p>Finally there are the supporting services. This is not just software installed on the server such as the actual web server program, but also registering and configuring a domain name and it&#8217;s associated <a href='http://en.wikipedia.org/wiki/Domain_Name_System'>Domain Name System</a> (DNS), configuring and securing <a href='http://en.wikipedia.org/wiki/Email_server'>email services</a> (MTA), <a href='http://en.wikipedia.org/wiki/Firewall_(computing)'>firewalls</a>, <a href='http://en.wikipedia.org/wiki/Security_patches#Security_patches'>security patches</a> and a whole bunch of other things just to make the server able to work as expected.</p>
+<div class='prezi-player'><style type='text/css' media='screen'>.prezi-player { width: 450px; } .prezi-player-links { text-align: center; }</style><object name='prezi_zmo0zqllxbof' width='450' id='prezi_zmo0zqllxbof' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' height='350'><param value='http://prezi.com/bin/preziloader.swf' name='movie' /><param value='true' name='allowfullscreen' /><param value='always' name='allowscriptaccess' /><param value='#ffffff' name='bgcolor' /><param value='prezi_id=zmo0zqllxbof&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0' name='flashvars' /><embed allowscriptaccess='always' bgcolor='#ffffff' type='application/x-shockwave-flash' src='http://prezi.com/bin/preziloader.swf' flashvars='prezi_id=zmo0zqllxbof&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0' name='preziEmbed_zmo0zqllxbof' width='450' id='preziEmbed_zmo0zqllxbof' allowfullscreen='true' height='350' /></object><div class='prezi-player-links'><p><a title='What exactly is a full stack web developer?' href='http://prezi.com/zmo0zqllxbof/full-stack-web-developer/'>Full Stack Web Developer</a> on <a href='http://prezi.com'>Prezi</a></p></div></div>
+			<div class="meta">
+				<!--posted under <a href="#">category</a> | <a href="#">comments</a>-->
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="alchemycs">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+		</div>
+	</article>
+</section>
+    	</div>
+    	<aside class="col02">
+    		<nav class="recent-posts">
+    			<ul>
+    			 
+    				<li>
+    					<a href="/2013/07/31/Nodebots-Day-Sydney.html">Nodebots Day Sydney</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2013/01/28/Unit-testing-nodejs-modules-with-Q-promises-or-why-is-my-code-always-perfect.html">Unit testing nodejs modules with Q promises (or why is my code always perfect?)</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2012/12/22/Christmas-Build.html">Christmas Build - Better Than CSS and HTML</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2012/04/09/How-We-Use-In-Game-Purchases-To-Teach-Our-Son-Personal-Responsibility.html">How We Use In-Game Purchases To Teach Our Son Personal Responsibility</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2011/11/21/Another_Breach_and_Rant_On_Privacy.html">Another Breach/Rant On Privacy</a>
+    				</li>
+    			
+    			</ul>
+				<div class="postit-bottom">
+					<a href="/Archives/">All Posts</a>
+				</div>    			
+    		</nav>
+    		<div id="catagoryContainer" style="display:none">
+	    		<div class="categories-top"></div>
+	    		<nav class="categories">
+	    			<ul>
+	    				<li>
+	    					<a href="#">Cat1</a>
+	    				</li>
+	    				<li>
+	    					<a href="#">Cat2</a>
+	    				</li>
+	    			</ul>
+	    		</nav>
+	    		<div class="categories-bottom"></div>
+	    	</div><!-- end of category container -->
+		<nav>
+		<h1>Other Links</h1>
+		  <ul>
+		    <li>
+    			<a href="http://twitter.com/alchemycs" title="Follow me on twitter">Twitter</a>		    
+		    </li>
+		    <li>
+    			<a href="http://github.com/alchemycs" title="My projects on GitHub">GitHub Projects</a>
+		    </li>
+		    <li>
+    			<a href="http://earthexplorer.info"
+    	title="Earth Explorer - Live!">Earth Explorer - Live!</a>
+		    </li>
+<!--		    <li>
+    			<a href="http://alchemycs.github.com/EarthExplorer"
+    	title="Earth Explorer Blog">Earth Explorer Blog</a>
+		    </li>-->
+<!--                    
+		    <li>
+    			<a href="http://careerprogrammer.tumblr.com"
+    	title="Career Programmer Blog">Career Programmer Blog</a>
+		    </li>
+-->
+		    <li>
+                    <li>
+                        <a href="http://coderwall.com/alchemycs" title="My Coderwall">My Coderwall Achievements</a>
+                    </li>
+    			<a href="http://complispace.github.com" title="CompliSpace Developer Blog">CompliSpace Developer Blog</a>
+		    </li>
+		    <li>
+    			<a href="http://linkedin.com/in/mrmchugh"
+    	title="Linked IN">Linked IN</a>
+		    </li>
+		  </ul>
+		</nav>
+                <section class="coderwall" data-coderwall-username="alchemycs" data-coderwall-orientation="horizontal"></section>                
+		<section style="padding-top: .5em;">
+		  <h1>Employment and Work</h1>
+		  I'm certainly open to short term, or long term
+    	casual work opportunities. Drop me a line and let's see how I
+    	can help on your project!
+		 </section>
+                <section style="padding-top:.5em; text-align:center">
+                      <a href="https://developer.mozilla.org/web/?WT.mc_id=mdn37"><img src="https://developer.mozilla.org/media/img/promote/promobutton_mdn37.png" alt="MDN is your Web Developer Toolbox for docs, demos and more on HTML, CSS, JavaScript and other Web standards and open technologies." /></a>                    
+                </section>
+	</aside>
+    </div>
+    <footer>
+    	<div class="background"></div>
+    	<div class="txt">
+    		<p>
+	    		This is where I will be focussing on my own development 
+	    		projects. It could be experiments, ideas or full blown projects 
+	    		- I have a few in mind. Please feel free to email me: <a href='mailto:developer@yrucalling.me'>developer@yrucalling.me</a>
+    		</p>
+   	</div>
+    	<span class="rss">
+    		<a href="/rss-feed.xml">Get the feed!</a>
+    	</span>
+    </footer>
+
+
+  <!-- Javascript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+  
+  
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="/js/plugins.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
+  
+  <!-- end concatenated and minified scripts-->
+  
+  
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
+  <!-- yui profiler and profileviewer - remove for production -->
+  <!-- 
+  <script src="js/profiling/yahoo-profiling.min.js"></script>
+  <script src="js/profiling/config.js"></script>
+   -->
+  <!-- end profiling code -->
+
+
+  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
+       change the UA-XXXXX-X to be your site's ID -->
+  <script>
+  var _gaq = [['_setAccount', 'UA-21775306-1'], ['_trackPageview']];
+   (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+ </script>
+  
+</body>
+</html>

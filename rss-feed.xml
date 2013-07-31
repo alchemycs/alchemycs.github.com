@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>GitHub Development Blog for AlchemyCS</title>
+		<description>This is where I will be focussing on my own development projects.</description>
+		<link>http://alchemycs.github.com/</link>
+		
+			<item>
+				<title>Nodebots Day Sydney</title>
+				<description>&lt;p&gt;Last weekend the family attended the first World Nodebots Day in Sydney, and it was &lt;strong&gt;awesome&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;First I would like to send out thanks to &lt;a href='http://www.webdirections.org/'&gt;Web Directions&lt;/a&gt; for providing a venue and to NICTA for supplying some of their educational boards.&lt;/p&gt;
+
+&lt;p&gt;In this post I wanted to write more about the &lt;em&gt;experience&lt;/em&gt; from my families perspective rather than a technical view. Naturally I was like a kid on XMAS eve waiting for the event and my son was mildly curious with my wife a little nervous about hanging out with IT people. My wife is an RN at &lt;a href='http://www.sswahs.nsw.gov.au/rpa/'&gt;RPAH&lt;/a&gt; (yes, she&amp;#8217;s &lt;a href='http://channelnine.ninemsn.com.au/rpa/'&gt;been on the show&lt;/a&gt;), and probably Australia&amp;#8217;s leading &lt;a href='http://www.bardaccess.com/loc-sherlock.php?section=Features'&gt;Sherlock&lt;/a&gt; operators, but has recently been dabbling in HTML/CSS/JS via &lt;a href='http://www.codecademy.com/'&gt;Codecademy&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id='arrival'&gt;Arrival&lt;/h2&gt;
+
+&lt;p&gt;We arrived just a little early and kind of just stood around nervously not knowing anyone or what we were meant to do, but after a little while it started to take off. Web Directions is in an old building in Surry Hills with old wood floors and a blackboard for a wall. The lights were hang down long fluro tubes that weren&amp;#8217;t too bright and had a slightly yellow tinge to them.&lt;/p&gt;
+
+&lt;p&gt;We started by watching the &lt;a href='http://www.youtube.com/watch?v=zEn4Pj3XqE8'&gt;Nodebots Day keynote video by Chris Williams&lt;/a&gt; which was kind of funny because we somehow managed to get the unedited version, but the way we were all gathered around in this dark room dull lighting watching our supreme leader talk about the &amp;#8216;democratization of hardware&amp;#8217; my wife leaned over to ask if were at the robot place or some underground anti-government meeting!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='/images/nodebots/place.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='fork_and_merge'&gt;Fork and Merge&lt;/h2&gt;
+
+&lt;p&gt;After that we kind of forked into two groups: those who were new to everything and those who already had a project they wanted to work on.&lt;/p&gt;
+
+&lt;p&gt;Later on through the day close to lunch time we started to merge back together again, with everyone starting to walk around and see what everyone was up to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='/images/nodebots/sphero.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='projects'&gt;Projects&lt;/h2&gt;
+
+&lt;p&gt;Our main project was a cheapo radio controlled &amp;#8216;tarantula&amp;#8217; we bought, gutted and stuck a &lt;a href='http://www.freetronics.com/products/leostick'&gt;Freetronics Arduino Leostick&lt;/a&gt; into it with a few sensors. We got to the point of wiring up the internal motors to make it scrabble around, but we&amp;#8217;ll be finishing of the rest in the next couple of weekends when time is available.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='/images/nodebots/tarantula.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;My son was quite impressed by a robot called &amp;#8216;Weaver&amp;#8217; by a quiet and clever guy called Fernando. We recommend that you check out his work at &lt;a href='http://weaver.be/'&gt;Weaver the social robot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='take_away'&gt;Take Away&lt;/h2&gt;
+
+&lt;p&gt;The first thing we got from this is how fantastic and fun the whole idea and day was. All of us would love this to become a more regular thing. We&amp;#8217;ve seen people suggesting every month, but personally for us every 2-3 months would be better.&lt;/p&gt;
+
+&lt;p&gt;So what did we get?&lt;/p&gt;
+
+&lt;h3 id='quotes_from_my_son'&gt;Quotes From My Son&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;#8221;..These people are great, they are interested in each others stuff and want to help and not just talk about why their own stuff is better..&amp;#8221;&lt;/li&gt;
+
+&lt;li&gt;&amp;#8221;..Dad, I want to learn JS for &lt;em&gt;real&lt;/em&gt; this time&amp;#8221;&lt;/li&gt;
+
+&lt;li&gt;&amp;#8221;..that &lt;a href='http://weaver.be'&gt;Weaver&lt;/a&gt; is so good, I&amp;#8217;m really impressed!&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt='' src='/images/nodebots/son.jpg' /&gt;&lt;/p&gt;
+
+&lt;h3 id='conversation_with_my_wife'&gt;Conversation With My Wife&lt;/h3&gt;
+
+&lt;p&gt;On the way back home my wife started interrogating me about what everyone gets out of this. What do they expect, why did Web Directions host it and why so cheaply?&lt;/p&gt;
+
+&lt;p&gt;It was a long conversation, but it was an eye opener for her (and nice for me to get to share) that a big part of the developer/maker way of being is sharing and learning and helping. This is all stuff we love to do and if others are interested we are happy to teach and to learn.&lt;/p&gt;
+
+&lt;p&gt;To paraphrase a little she was, &amp;#8220;..impressed how people in this community of programmers and robots have more heart than the rest of the world..&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='/images/nodebots/wife.jpg' /&gt;&lt;/p&gt;
+
+&lt;h3 id='for_me'&gt;For Me&lt;/h3&gt;
+
+&lt;p&gt;I grew up so fascinated with robots, electronics and technology my teachers worried for my lack of interest in ball games (don&amp;#8217;t worry Mr Reynolds, I now have a Sphero!) so I was happy enough to see that my dreams as a child are becoming reality.&lt;/p&gt;
+
+&lt;p&gt;How could I not be content? After all, who would have thought that making robots would be a family event no different from going for a picnic down the park?&lt;/p&gt;
+
+&lt;h2 id='photos'&gt;Photos&lt;/h2&gt;
+
+&lt;p&gt;If you like, some of our photos are at &lt;a href='https://www.dropbox.com/sh/62taz0ry6nzrnm7/T9X3Z7W0JJ'&gt;https://www.dropbox.com/sh/62taz0ry6nzrnm7/T9X3Z7W0JJ&lt;/a&gt;&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2013/07/31/Nodebots-Day-Sydney.html</link>
+				<pubDate>Wed, 31 July 2013 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Unit testing nodejs modules with Q promises (or why is my code always perfect?)</title>
+				<description>&lt;p&gt;If not done carefully, unit testing with assertions inside promise Callback and Errorback functions can be misleading and make it look like your code is perfect all the time!&lt;/p&gt;
+
+&lt;p&gt;When running unit tests the &lt;code&gt;assert&lt;/code&gt; API throws exceptions to indicate when things aren&amp;#8217;t going as expected. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+var assert = require('assert');
+function myTest(aValue) {
+   assert.ok(aValue, &quot;myTest(aValue) expected something to be passed&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But if you are testing inside an promise Callback or Errback the exception get&amp;#8217;s caught by the wrapper. Consider this snippet:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+var aModule = require('someModule');
+
+aModule.doPromisedThing()
+.then(function(aValue) {
+  assert.ok(aValue, &quot;Expected aValue to be set&quot;);
+}, function(aError) {
+  assert.fail(aError, null, &quot;Shouldn't be here!&quot;);
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here we would expect an assertion if something here went wrong, but in practicality the promise library has caught the exception. Since if we are in the Callback when the error occurs, we can&amp;#8217;t get to the Errback, and if we are in the Errback then there is nowhere else to handle the error since we are already supposed to be handling the errors!&lt;/p&gt;
+
+&lt;p&gt;So what do we do?&lt;/p&gt;
+
+&lt;p&gt;The answer is quite simple and sits in a little block on the Q README titled &lt;a href='https://github.com/kriskowal/q#the-end'&gt;The End&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By simply ensuring the &amp;#8216;thenable&amp;#8217; chain finishes with a simple &lt;code&gt;.done()&lt;/code&gt; any exceptions thrown in the Callback or Errback are re-thrown.&lt;/p&gt;
+
+&lt;p&gt;Our previous code sample becomes:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+var aModule = require('someModule');
+
+aModule.doPromisedThing()
+.then(function(aValue) {
+  assert.ok(aValue, &quot;Expected aValue to be set&quot;);
+}, function(aError) {
+  assert.fail(aError, null, &quot;Shouldn't be here!&quot;);
+}).done();
+&lt;/code&gt;&lt;/pre&gt;</description>
+				<link>http://alchemycs.github.com/2013/01/28/Unit-testing-nodejs-modules-with-Q-promises-or-why-is-my-code-always-perfect.html</link>
+				<pubDate>Mon, 28 January 2013 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Christmas Build - Better Than CSS and HTML</title>
+				<description>&lt;h2 id='the_build'&gt;The Build&lt;/h2&gt;
+
+&lt;p&gt;This build has absolutely nothing to do with CSS and HTML - sure it would probably have been easier to build in HTML and CSS, but definitely not as fun or as satisfying!&lt;/p&gt;
+
+&lt;p&gt;Just because I &amp;#8220;build things for the web&amp;#8221; doesn&amp;#8217;t mean I can&amp;#8217;t &amp;#8220;build things for my family&amp;#8221;&lt;/p&gt;
+
+&lt;h2 id='christmas_in_australia'&gt;Christmas In Australia&lt;/h2&gt;
+
+&lt;p&gt;This is the first Christmas in about 3 years I have been at home in Australia. It&amp;#8217;s hot and no chance of snow&amp;#8230;except for what comes out of a can!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='We have a tree with fake snow' src='/images/snowtree.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;My wife and I decided we would decorate a bit for this years family party which is at our house. We have a pretty nice garden that is always fantastic to rest in and we&amp;#8217;ve decorated it with the obligatory lights.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='/images/homeoffice.jpg' /&gt; &lt;img alt='' src='/images/xmasgarden4.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although I must admit, our last few Christmas seasons have been in Thailand and it is embarassing how fantastic their decorations are: Australia is supposed to be a christian country and Thailand a buddhist country, but they make Aussie stuff look like an afterthought!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Ginger Bread Man' src='/images/gingerman1.jpg' /&gt; &lt;img alt='Ginger Bread Man With Perspective' src='/images/gingerman2.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='part_1__the_sign_post'&gt;Part 1 - The Sign Post&lt;/h2&gt;
+
+&lt;p&gt;Right! So we decided to build a few things. It started of we wanted a sign to direct our guests around the back of the house. Our idea was to put up a sign that said &amp;#8220;North Pole&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Ok, so we are closer to the South Pole, but hey, let&amp;#8217;s keep with the spirit!&lt;/p&gt;
+
+&lt;p&gt;Anyway it evolved from stuff we had around the house:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;spare christmas decorations&lt;/li&gt;
+
+&lt;li&gt;an old snack tin we painted&lt;/li&gt;
+
+&lt;li&gt;an unused climbing plant trellis&lt;/li&gt;
+
+&lt;li&gt;cardboard, foam, tape&lt;/li&gt;
+
+&lt;li&gt;some scrap wood&lt;/li&gt;
+
+&lt;li&gt;and a cheapo bubble machine we bought from Jaycar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is now not just a pleasant sign, it is interactive! No matter who you are you can&amp;#8217;t resist trying to catch or pop a bubble!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='North Pole Directions' src='/images/northpoledirectionsfront.jpg' /&gt; &lt;img alt='North Pole Directions Back' src='/images/northpoledirectionsback.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='part_2__the_north_pole'&gt;Part 2 - The North Pole&lt;/h2&gt;
+
+&lt;p&gt;While at the hardware shop getting some more garden supplies I saw them throwing out a very tall and solid cardboard tube - perfect to build a &amp;#8220;North Pole&amp;#8221;. They were happy to let me take it.&lt;/p&gt;
+
+&lt;p&gt;I grabbed a few more things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;some wood for the base&lt;/li&gt;
+
+&lt;li&gt;support brackets and some screws&lt;/li&gt;
+
+&lt;li&gt;red and white cloth adhesive&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Perfect! I wasn&amp;#8217;t quite sure about the sphere at the top yet - I had seen some foam spheres at the craft shop but we ended up using the glow ball night light next to my son&amp;#8217;s bed. The base still needs to be painted, but we&amp;#8217;re happy with the results!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='North Pole Parts' src='/images/northpoleparts.jpg' /&gt; &lt;img alt='North Pole' src='/images/northpole.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='merry_christmas_everyone'&gt;Merry Christmas Everyone!&lt;/h2&gt;
+
+&lt;p&gt;&lt;img alt='' src='/images/xmasgarden1.jpg' /&gt; &lt;img alt='' src='/images/xmasgarden2.jpg' /&gt; &lt;img alt='' src='/images/xmasgarden3.jpg' /&gt; &lt;img alt='' src='/images/xmasgarden4.jpg' /&gt;&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2012/12/22/Christmas-Build.html</link>
+				<pubDate>Sat, 22 December 2012 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>How We Use In-Game Purchases To Teach Our Son Personal Responsibility</title>
+				<description>&lt;h2 id='preface'&gt;Preface&lt;/h2&gt;
+
+&lt;p&gt;I was originally inspired by &lt;a href='http://christianheilmann.com/'&gt;Christian Heilmann&lt;/a&gt; to write a short article on in-game purchases to unlock achievements and how they are actually quite a good thing for parents. I think, however, I may have opened up a whole can of worms on parenting!&lt;/p&gt;
+
+&lt;h2 id='introduction'&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Many parents lament over how cheap or free games/apps keep kids locked out of certain achievements unless they pay for them. They also fret over the inordinate amount of time required to play a game to unlock the same paid achievement.&lt;/p&gt;
+
+&lt;p&gt;While discussing this a few years ago with my wife we discovered we could use this to teach our son responsibility and self-achievement while enjoying the awesomeness of being a kid!&lt;/p&gt;
+
+&lt;p&gt;What I discuss here has (so far) worked for us - YMMV. While &amp;#8220;I&amp;#8221; write this article, the perspective is from &amp;#8220;we&amp;#8221; - mum and dad!&lt;/p&gt;
+
+&lt;h2 id='ground_rules_and_values'&gt;Ground Rules and Values&lt;/h2&gt;
+
+&lt;p&gt;All the rules we have in place are not permanent fixed rules, they are subject to constant negotiation between us and our son. This encourages skills in critical thinking, persuasion, debate, value assessment and negotiation skills. However in the end, we the parents have the final word.&lt;/p&gt;
+
+&lt;p&gt;Our son is rewarded on several categories that include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Doing well at school&lt;/li&gt;
+
+&lt;li&gt;Learning about &lt;em&gt;something in the real world&lt;/em&gt;, for school or personal interest, in his own time&lt;/li&gt;
+
+&lt;li&gt;Doing &lt;em&gt;extra&lt;/em&gt; chores to help out around the house&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of the values we try to teach:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Freedom doesn&amp;#8217;t mean being able to do anything, it means accepting responsibility for the consequences of your choices and actions&lt;/li&gt;
+
+&lt;li&gt;Responsibility is not a chore, it is a reward achieved from recognition and respect&lt;/li&gt;
+
+&lt;li&gt;Help others so long as it doesn’t hurt yourself or your family&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='the_balancing_act_between_chores_self_learning_rewards_and_fun'&gt;The Balancing Act Between Chores, Self Learning, Rewards and Fun&lt;/h2&gt;
+
+&lt;p&gt;Our primary goal for our son is to provide him with the best future we possibly can. We want him to do well academically while understanding the world around him and enjoying all life has to offer. We want him to succeed in life by magnitudes better than us.&lt;/p&gt;
+
+&lt;p&gt;Children need to be taught that certain chores are necessary to maintain cleanliness, health and general wellbeing in life. These chores don’t deserve a reward - they are just general parts of living. Things like putting dirty clothes in the basket, folding and putting away clothes, putting belongings away when they aren&amp;#8217;t being used etc. These are things that kids need to learn so that they become instinct. We want our son to help do the dishes because it keeps the house tidy and hygienic, not because he will get a reward.&lt;/p&gt;
+
+&lt;p&gt;So how do you teach &amp;#8216;expected&amp;#8217; chores while rewarding academic achievement and encouraging self learning and lateral thinking? And how do you balance encouraging your child to be a self achiever while not missing out on the fun of being a kid?&lt;/p&gt;
+
+&lt;p&gt;The following works in our family.&lt;/p&gt;
+&lt;iframe src='http://www.youtube.com/embed/ZJaDZNjs2Sk' width='399' frameborder='0' allowfullscreen='allowfullscreen' height='203'&gt;
+&lt;/iframe&gt;
+&lt;h2 id='a_simple_method'&gt;A Simple Method&lt;/h2&gt;
+
+&lt;p&gt;Our son has several on-line things that he likes a lot. Many of these things include free app games that have in-game purchases such as upgrades etc. Left to his own devices our son would spend hours trying to unlock achievements for these games.&lt;/p&gt;
+
+&lt;p&gt;Rather than spending hours trying to unlock something in his games, we would much rather our son do something that will benefit his future but we also don&amp;#8217;t want to deny him his childhood.&lt;/p&gt;
+
+&lt;p&gt;To achieve this we offer our son the purchase of in-game items if he can demonstrate to us that he has gone beyond the usual expectations of mandatory chores, homework and good behaviour. This aligns with &amp;#8220;real life&amp;#8221; where you may have a job and you get your salary, but performing exceptionally results in other benefits. The &amp;#8220;real world&amp;#8221; isn&amp;#8217;t always like that but the skills of persuasion, debate and negotiation certainly help. Sometimes he will be rewarded with an iTunes gift card that he can spend on games, in-game purchases and now he is approaching his teen years music and videos (with our approval of course).&lt;/p&gt;
+
+&lt;p&gt;When our son wants something in-game he needs to prove to us why he deserves to be rewarded. We encourage him to do this by giving a presentation: this helps with his self-esteem in front of people and prepares him to be a leader in the future. As a side effect he has gathered a reputation at school as the kid who doesn&amp;#8217;t use palm cards and isn&amp;#8217;t afraid of public speaking (he is, but to a much lesser degree than his peers).&lt;/p&gt;
+&lt;iframe src='http://www.youtube.com/embed/hHWXdF3xIYY' width='399' frameborder='0' allowfullscreen='allowfullscreen' height='203'&gt;
+&lt;/iframe&gt;
+&lt;h2 id='exceptions_and_punishment'&gt;Exceptions and Punishment&lt;/h2&gt;
+
+&lt;p&gt;It is important to note that his extra effort is not recognised if he doesn&amp;#8217;t achieve his basic core requirements: his basic chores, homework and good behaviour are requirements that must be met before he is eligible for rewards. If the lounge room is messy for a long time, he keeps leaving his clothes on the floor or slips for an extended period in school then he doesn&amp;#8217;t qualify for a reward.&lt;/p&gt;
+
+&lt;p&gt;I lied about the punishment. I guess the closest thing to punishment we have is simply not qualifying for a reward. I don&amp;#8217;t know if we have done exceptionally well as parents or our son is just naturally well natured, but we have never had the need to punish him. He has never had a temper tantrum - EVER! He will get quiet or sarcastic, but never shows his temper. In fact when he sees other kids having tantrums he freaks out a little and keeps his distance, sometimes asking what is wrong with them.&lt;/p&gt;
+
+&lt;h2 id='outcome'&gt;Outcome&lt;/h2&gt;
+
+&lt;p&gt;Our son does well at school. He is slightly above average in his class. We&amp;#8217;re happy with him being well adjusted rather than a genius at school that doesn&amp;#8217;t how to shake hands!&lt;/p&gt;
+
+&lt;p&gt;All things worthwhile tend to require effort &amp;amp; understanding and we think our son is the most important thing for us to be spending effort on.&lt;/p&gt;
+
+&lt;p&gt;We are constantly being told by other adults how well behaved, pleasant and smart our son is - we are very proud of him.&lt;/p&gt;
+
+&lt;p&gt;I could write a long list of things we are proud of regarding our son, but I will close of with his most recent accomplishment: as I write this we are in Thailand for his grandfather’s funeral. Our son is respected enough in our family that he has been asked to become a monk for the ceremony to help guide his grand father to the other side. Whatever your afterlife belief is, being entrusted with someone&amp;#8217;s soul is certainly one of the greatest marks of respect.&lt;/p&gt;
+&lt;div&gt;
+&lt;a href='/images/pramark_1.jpg'&gt;&lt;img src='/images/pramark_1_thumb.jpg' /&gt;&lt;/a&gt;
+&lt;a href='/images/pramark_2.jpg'&gt;&lt;img src='/images/pramark_2_thumb.jpg' /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h3 id='supplement__evolution_of_our_sons_online_gaming'&gt;Supplement - Evolution of Our Son’s On-Line Gaming&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Club Penguin&lt;/li&gt;
+
+&lt;li&gt;World of Cars Online (closed)&lt;/li&gt;
+
+&lt;li&gt;Lego World: he would have been if it was released in Australia - he always checked their progress&lt;/li&gt;
+
+&lt;li&gt;Ben 10 Online: he won a mother’s day competition&lt;/li&gt;
+
+&lt;li&gt;Need for Speed World: he was an active bug reporter, about 3 per week, until they banned him for “spamming”. He was very upset that they thought he was a spammer and wouldn’t justify their decision let alone enter into negotiations. He lost quite a lot of value from in-game purchases on this. As much as he has loved the NFS franchise he is now actively against EA Games and is sure to discourage his friends from using them.&lt;/li&gt;
+
+&lt;li&gt;City of Heroes: I’ve had a City of Villains account for years but he has only recently become old/mature enough for us to allow him to play - but he has chosen Heroes.&lt;/li&gt;
+
+&lt;li&gt;Spiral Knights: He loves this one at the moment. He’s been saving ‘rewards’ for value packs that he has chosen to purchase only during school holidays so he gets better value.&lt;/li&gt;
+
+&lt;li&gt;iOS: Galaxy On Fire, Temple Run, Atari Breakout and Asteroids&lt;/li&gt;
+&lt;/ul&gt;</description>
+				<link>http://alchemycs.github.com/2012/04/09/How-We-Use-In-Game-Purchases-To-Teach-Our-Son-Personal-Responsibility.html</link>
+				<pubDate>Mon, 09 April 2012 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Another Breach/Rant On Privacy</title>
+				<description>&lt;p&gt;Ok, so this post isn&amp;#8217;t about something I have done or used, or about some cool piece of technology I have come across. Rather, this post is &lt;mark&gt;yet another rant on privacy erosion&lt;/mark&gt; that has come about because of a breach in my own personal information from people that should know better.&lt;/p&gt;
+
+&lt;p&gt;The build up to this rant started on Saturday, so &lt;em&gt;I did&lt;/em&gt; have time to calm down from wanting to tell everyone they are idiots and anathematize myself to selling hand woven baskets at the local markets.&lt;/p&gt;
+&lt;a href='/images/camera.jpg'&gt;&lt;img style='float: right' src='/images/camera-thumb.jpg' /&gt;&lt;/a&gt;
+&lt;p&gt;However my calm was immediately damaged on a morning walk when I spotted this &lt;a href='/images/camera.jpg'&gt;portable surveillance device&lt;/a&gt; complete with GPS and facial recognition, sitting calmly near some pedestrian traffic lights on George Street (Sydney).&lt;/p&gt;
+
+&lt;h2 id='so_what_happened_on_saturday'&gt;So what happened on Saturday?&lt;/h2&gt;
+
+&lt;p&gt;In my post &lt;a href='http://careerprogrammer.tumblr.com/post/2973484717/mail-insecurity'&gt;Mail Insecurity&lt;/a&gt; originally posted on 4th April 2010 and re-posted on 28th January 2011 I said,&lt;/p&gt;
+&lt;blockquote style='margin-bottom: 20px'&gt;
+The scariest part for me is not about ME sending personal data, but other people 
+sending personal data about me! I can easily envisage HR personnel communicating 
+with the companies superannuation provider about my account and sending personal 
+information such as my tax file number, date of birth and address. Wow, that's 
+enough to identify me over the phone with any utility provider or even my bank! 
+Scary...
+&lt;/blockquote&gt;
+&lt;p&gt;And this has most certainly come to pass:&lt;/p&gt;
+
+&lt;p&gt;I was looking at my calendar and saw that it showed birthdays and other pesonal dates of people I know, including &lt;strong&gt;my upcoming holiday plans&lt;/strong&gt;. This grabbed my attention since I never put it into my calendar. Upon investigation I found that someone had been using their public event calendar to also to keep track of their personal dates of interest!&lt;/p&gt;
+
+&lt;p&gt;People who know me know my strong (sometimes extreme) viewpoint on privacy and security and they should know better. What makes this more dumb founding is I gave a talk only a month ago on &lt;a href='http://alchemycs.github.com/2011/10/04/Why_Is_Information_Security_Important.html'&gt;Why Information Security is Important&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So one of two things has happened here:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;My talk wasn&amp;#8217;t good enough and I didn&amp;#8217;t drive the point home enough.&lt;/li&gt;
+
+&lt;li&gt;People simply lack the brain capacity to understand privacy, or at least check if something is public or not.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='resolution_yeah_right'&gt;Resolution? Yeah, right!&lt;/h2&gt;
+
+&lt;p&gt;The question remains as what to do. Sure, I can go through the usual bullshit and try to educate people or even give them a good verbal lashing. Again. But perhaps it would be more illustrative to start posting other peoples private data and see what happens. I get so tired of this. As &lt;em&gt;Jean-Paul Satre&lt;/em&gt; said in his book &lt;em&gt;No Exit&lt;/em&gt;:&lt;/p&gt;
+&lt;blockquote style='margin:20px; padding-top:3em; padding-bottom: 2em;'&gt;
+&lt;p&gt;
+Hell is other people
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As my son recently discovered when someone offered him some jelly beans without telling him they were deliberately flavoured distgustingly: other people can never be trusted. Ever. The &lt;em&gt;X Files&lt;/em&gt; most certainly had it correct:&lt;/p&gt;
+&lt;div style='text-align: center; padding: 40px 0px;'&gt;
+&lt;mark style='font-size: 40px'&gt;Trust No One&lt;/mark&gt;
+&lt;/div&gt;
+&lt;p&gt;Sometimes I really do want to go off the grid and make a living selling baked goods or hand woven baskets at the local market.&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/11/21/Another_Breach_and_Rant_On_Privacy.html</link>
+				<pubDate>Mon, 21 November 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Farewell Steve, Thanks For All You Gave</title>
+				<description>&lt;p&gt;Your vision, humour and charisma will be missed.&lt;/p&gt;
+
+&lt;p&gt;When I was seriously considering leaving the IT profession it was your vision and leadership that kept the candle alight for me.&lt;/p&gt;
+
+&lt;p&gt;May you find peace.&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/10/05/Farewell_Steve.html</link>
+				<pubDate>Wed, 05 October 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Why Is Information Security Important?</title>
+				<description>&lt;p&gt;Today I had the opportunity to present a topic that has been on my mind for some time. As IT professionals we are always telling our users to use strong passwords, to be careful of all your online dealings, don&amp;#8217;t do this, don&amp;#8217;t do that&amp;#8230;blah blah blah&amp;#8230;.&lt;/p&gt;
+
+&lt;p&gt;But why do we have to repeat ourselves? I&amp;#8217;m thinking that perhaps we need to help people understand why information has value, just like we intuitively know the value of our credit cards or more tangible belongings. Once people understand the value of information, protecting it becomes second nature. Just like your ATM PIN number!&lt;/p&gt;
+
+&lt;p&gt;Below is a recording of the presentation and various links to the resources used.&lt;/p&gt;
+
+&lt;p&gt;I hope you find it useful, and I appreciate any comments you may have.&lt;/p&gt;
+&lt;iframe src='http://vid.ly/embeded.html?link=2k8h4a&amp;autoplay=false' width='450' name='vidly-frame' frameborder='0' height='253'&gt;&lt;a href='http://vid.ly/2k8h4a' target='_blank'&gt;&lt;img src='http://cf.cdn.vid.ly/2k8h4a/poster.jpg' /&gt;&lt;/a&gt;&lt;/iframe&gt;
+&lt;h2 id='presentation'&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;Recording: &lt;a href='http://goo.gl/e0SXE'&gt;http://goo.gl/e0SXE&lt;/a&gt;&lt;br /&gt;The PREZI Presentation: &lt;a href='http://goo.gl/Vi42i'&gt;http://goo.gl/Vi42i&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id='link_resources'&gt;Link Resources:&lt;/h2&gt;
+
+&lt;p&gt;Google&amp;#8217;s Transparency Report: &lt;a href='http://goo.gl/WMMSe'&gt;http://goo.gl/WMMSe&lt;/a&gt;&lt;br /&gt;The Digital Beyond: &lt;a href='http://goo.gl/kLBmG'&gt;http://goo.gl/kLBmG&lt;/a&gt;&lt;br /&gt;Whose Stealing Your Data? &lt;a href='http://goo.gl/ZHK9M'&gt;http://goo.gl/ZHK9M&lt;/a&gt;&lt;br /&gt;Mindful Security (links to the norton infosec videos): &lt;a href='http://goo.gl/0HHJz'&gt;http://goo.gl/0HHJz&lt;/a&gt;&lt;br /&gt;On Guard On Line: &lt;a href='http://goo.gl/u6wKE'&gt;http://goo.gl/u6wKE&lt;/a&gt;&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/10/04/Why_Is_Information_Security_Important.html</link>
+				<pubDate>Tue, 04 October 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>What Is A Full Stack Web Developer - Part 3 of 3</title>
+				<description>&lt;p&gt;Essentially what&amp;#8217;s different from a full stack web developer and another web developer is a deeper understanding on the underlying web technologies, the ability to run a complete network &amp;amp; hosting structure, and a broader understanding of parallel technologies.&lt;/p&gt;
+&lt;iframe src='http://www.screenr.com/embed/eGUs' width='450' frameborder='0' height='274'&gt;
+&lt;/iframe&gt;
+&lt;h2 id='part_3__the_web_application'&gt;Part 3 - The Web Application&lt;/h2&gt;
+
+&lt;p&gt;This is where things get interesting. At least, this is where end users start to see stuff!&lt;/p&gt;
+
+&lt;p&gt;Here is where the developer defines your web application and creates the models that represent your data, the business logic to make the data work in usefull ways and the framework that coordinates the model the logic and the user experience.&lt;/p&gt;
+
+&lt;p&gt;Not only does a web developer need to know how to do all of these things, they must also know the best way to optimise things like images, video, style sheets and much, much more!&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/09/02/What_Is_A_Full_Stack_Web_Developer_-_Part_3_of_3.html</link>
+				<pubDate>Fri, 02 September 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>What Is A Full Stack Web Developer - Part 2 of 3</title>
+				<description>&lt;p&gt;Essentially what&amp;#8217;s different from a full stack web developer and another web developer is a deeper understanding on the underlying web technologies, the ability to run a complete network &amp;amp; hosting structure, and a broader understanding of parallel technologies.&lt;/p&gt;
+&lt;iframe src='http://www.screenr.com/embed/zGUs' width='450' frameborder='0' height='274'&gt;
+&lt;/iframe&gt;
+&lt;h2 id='part_2__the_application_stack'&gt;Part 2 - The Application Stack&lt;/h2&gt;
+
+&lt;p&gt;The Application Stack provides the server side web developer the language and interfaces to the system to build applications. It provides storage such as databases and file systems and the ability to call other API&amp;#8217;s&lt;/p&gt;
+
+&lt;p&gt;There are various languages and databases that a developer can use, and this choice can depend on the underlying operating system, the needs of the application and the confidence of the programmer.&lt;/p&gt;
+
+&lt;p&gt;Popular choices for the server side development include PHP, Python and JSP, however it is interesting to see Node, which is based on JavaScript, being developed. Because Node uses JavaScript, it means that the language on the back end is the same as the language on the front end in the browser!&lt;/p&gt;
+
+&lt;p&gt;One of the most popular database choices for simple applications is MySQL, however for applications more than simple Content Management Systems a more robust database needs to be used such as PostrgreSQL or Oracle.&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/08/14/What_Is_A_Full_Stack_Web_Developer_-_Part_2_of_3.html</link>
+				<pubDate>Sun, 14 August 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>How To Create a New PDF Using Selected Pages From an Already Existing PDF (using a Mac)</title>
+				<description>&lt;p&gt;Using the Mac OS X built in &lt;mark&gt;Preview&lt;/mark&gt; program, you can easily extract selected pages from a PDF document to create a new document.&lt;/p&gt;
+&lt;iframe src='http://www.screenr.com/embed/PhSs' width='400' frameborder='0' height='244'&gt;
+&lt;/iframe&gt;</description>
+				<link>http://alchemycs.github.com/2011/07/22/How_To_Extract_PDF_Pages.html</link>
+				<pubDate>Fri, 22 July 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>What Is A Full Stack Web Developer - Part 1 of 3</title>
+				<description>&lt;p&gt;When people ask me what I am I tell them I&amp;#8217;m a &amp;#8220;Full Stack Web Developer&amp;#8221; which often has the response, &amp;#8220;Oh..computers?&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Fair enough&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;So to help friends, family and colleagues to understand what I do I put together this little presentation and screen cast.&lt;/p&gt;
+
+&lt;p&gt;Essentially what&amp;#8217;s different from a full stack web developer and another web developer is a deeper understanding on the underlying web technologies, the ability to run a complete network &amp;amp; hosting structure, and a broader understanding of parallel technologies.&lt;/p&gt;
+&lt;iframe src='http://www.screenr.com/embed/jnUs' width='450' frameborder='0' height='274'&gt;
+&lt;/iframe&gt;
+&lt;h2 id='part_1__the_hosting_system'&gt;Part 1 - The Hosting System&lt;/h2&gt;
+
+&lt;p&gt;Every web application and web site has to be come from somewhere, this is the hosting system. A web site could be somewhere local such as the free web hosting your ISP provides, or it could be on a dedicated server you rent somewhere.&lt;/p&gt;
+
+&lt;p&gt;The full stack web developer will configure and provide the whole underlying structure for your web application. This will involve sourcing an appropriate server and provision hosting in a data center. It could also be a cloud service such as Amazon Web Services or Google App Engine.&lt;/p&gt;
+
+&lt;p&gt;Next comes the installation of the &lt;a href='http://en.wikipedia.org/wiki/Operating_system'&gt;Operating System&lt;/a&gt; (OS). This is what makes the computer work in the first place. It coordinates between all the hardware input/output devices and the &lt;a href='http://en.wikipedia.org/wiki/Computer_program'&gt;programs&lt;/a&gt; that run on the computer&lt;/p&gt;
+
+&lt;p&gt;Finally there are the supporting services. This is not just software installed on the server such as the actual web server program, but also registering and configuring a domain name and it&amp;#8217;s associated &lt;a href='http://en.wikipedia.org/wiki/Domain_Name_System'&gt;Domain Name System&lt;/a&gt; (DNS), configuring and securing &lt;a href='http://en.wikipedia.org/wiki/Email_server'&gt;email services&lt;/a&gt; (MTA), &lt;a href='http://en.wikipedia.org/wiki/Firewall_(computing)'&gt;firewalls&lt;/a&gt;, &lt;a href='http://en.wikipedia.org/wiki/Security_patches#Security_patches'&gt;security patches&lt;/a&gt; and a whole bunch of other things just to make the server able to work as expected.&lt;/p&gt;
+&lt;div class='prezi-player'&gt;&lt;style type='text/css' media='screen'&gt;.prezi-player { width: 450px; } .prezi-player-links { text-align: center; }&lt;/style&gt;&lt;object name='prezi_zmo0zqllxbof' width='450' id='prezi_zmo0zqllxbof' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' height='350'&gt;&lt;param value='http://prezi.com/bin/preziloader.swf' name='movie' /&gt;&lt;param value='true' name='allowfullscreen' /&gt;&lt;param value='always' name='allowscriptaccess' /&gt;&lt;param value='#ffffff' name='bgcolor' /&gt;&lt;param value='prezi_id=zmo0zqllxbof&amp;amp;lock_to_path=0&amp;amp;color=ffffff&amp;amp;autoplay=no&amp;amp;autohide_ctrls=0' name='flashvars' /&gt;&lt;embed allowscriptaccess='always' bgcolor='#ffffff' type='application/x-shockwave-flash' src='http://prezi.com/bin/preziloader.swf' flashvars='prezi_id=zmo0zqllxbof&amp;amp;lock_to_path=0&amp;amp;color=ffffff&amp;amp;autoplay=no&amp;amp;autohide_ctrls=0' name='preziEmbed_zmo0zqllxbof' width='450' id='preziEmbed_zmo0zqllxbof' allowfullscreen='true' height='350' /&gt;&lt;/object&gt;&lt;div class='prezi-player-links'&gt;&lt;p&gt;&lt;a title='What exactly is a full stack web developer?' href='http://prezi.com/zmo0zqllxbof/full-stack-web-developer/'&gt;Full Stack Web Developer&lt;/a&gt; on &lt;a href='http://prezi.com'&gt;Prezi&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</description>
+				<link>http://alchemycs.github.com/2011/07/20/What_Is_A_Full_Stack_Web_Developer_-_Part_1_of_3.html</link>
+				<pubDate>Wed, 20 July 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>First Steps In Python</title>
+				<description>&lt;p&gt;As a long term PHP programmer, I have a lot of time, money and knowledge invested into the language. However I&amp;#8217;m too comfortable with it and so to avoid stagnation I&amp;#8217;ve begun looking at the &lt;a href='http://www.python.org/'&gt;Python language&lt;/a&gt;, the &lt;a href='https://www.djangoproject.com/'&gt;Django framework&lt;/a&gt; and hosting methods such as &lt;a href='http://code.google.com/appengine/'&gt;Google App Engine&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And so without further ado I present my first Python class - a class to build CompliSpace Fundamanetals referred login URL&amp;#8217;s&lt;/p&gt;
+&lt;div style='overflow: scroll; height: 400px'&gt;
+    &lt;div style='width:1000px'&gt;
+    &lt;script src='https://gist.github.com/907000.js?file=CSFReferrer.py' /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+				<link>http://alchemycs.github.com/2011/06/09/First-Steps-In-Python.html</link>
+				<pubDate>Thu, 09 June 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Five Box Risk Matrix</title>
+				<description>&lt;p&gt;Governance, Risk and Compliance systems always seem to have very poor looking interfaces (a la internet explorer 6) for people to rate risks. I put together this quick proof of concept that takes advantage of HTML 5 slider controls that allows you to have something a little more palatable.&lt;/p&gt;
+
+&lt;p&gt;Use the sliders to set the &lt;mark&gt;consequence&lt;/mark&gt; and &lt;mark&gt;likelihood&lt;/mark&gt; ratings which will result in the &lt;mark&gt;risk rating&lt;/mark&gt; being updated in real time.&lt;/p&gt;
+
+&lt;p&gt;Alternatively you can click on one of the cells directly in the table to set the rating.&lt;/p&gt;
+
+&lt;p&gt;Try it out on my &lt;a href='http://alchemycs.github.com/Playground/FiveBoxRiskMatrix/index.html'&gt;Playground Pages&lt;/a&gt; page, or take a peek at the source code on my &lt;a href='https://github.com/alchemycs/Playground'&gt;GitHub Playground Repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://alchemycs.github.com/Playground/FiveBoxRiskMatrix/index.html'&gt;&lt;img alt='Five Box Risk Matrix' src='/images/five_box_risk_matrix_screenshot.gif' /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/04/16/Five-Box-Risk-Matrix.html</link>
+				<pubDate>Sat, 16 April 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Life With Canvas</title>
+				<description>&lt;p&gt;The &lt;code&gt;canvas&lt;/code&gt; element has been around for a while now on webkit and has made it into HTML5. I have never had the chance to use it, so I thought I would give it a go by implementing that &amp;#8216;ol favourite, &lt;a href='http://en.wikipedia.org/wiki/Conway&amp;apos;s_Game_of_Life'&gt;Conway&amp;#8217;s Game of Life&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I wrote my first implementation of it years ago on my C=64 in BASIC using &lt;code&gt;peek&lt;/code&gt; and &lt;code&gt;poke&lt;/code&gt; directly to the screen memory&amp;#8230;ahhh&amp;#8230;memories&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;So here is a pretty basic version written in Javascript for the &lt;code&gt;canvas&lt;/code&gt; element. What I love about life is how simple the algorithm is, but how hypnotizing the effect can be!&lt;/p&gt;
+
+&lt;p&gt;Writting this again made me feel all warm and fuzzy inside with my memories harkening back to a more innocent time when I coded for fun and not for profit!&lt;/p&gt;
+
+&lt;p&gt;The source can be found inside my &lt;a href='https://github.com/alchemycs/Playground'&gt;Playground GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;div&gt;
+&lt;button id='reset'&gt;Reset&lt;/button&gt;
+&lt;button id='startStop'&gt;Go&lt;/button&gt;
+&lt;canvas style='border: 1px solid #999999;' width='400' id='life' height='400'&gt;
+Sorry, your browser doesn't support the canvas element. Try using Firfox, Safari, Chrome or Opera.
+&lt;/canvas&gt;
+&lt;script src='https://github.com/alchemycs/Playground/raw/master/life/life.js' /&gt;
+&lt;/div&gt;</description>
+				<link>http://alchemycs.github.com/2011/03/22/Life-With-Canvas.html</link>
+				<pubDate>Tue, 22 March 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>EarthExplorer Is Here</title>
+				<description>&lt;p&gt;At last! I&amp;#8217;ve managed to get around to clearing out my private data from the code and now have it pushed up onto GitHub!&lt;/p&gt;
+
+&lt;p&gt;Please feel free to &lt;a href='http://github.com./alchemycs/EarthExplorer'&gt;checkout the code&lt;/a&gt; and the &lt;a href='http://www.earthexplorer.info'&gt;live site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id='introduction'&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href='http://www.earthexplorer.info/'&gt;EarthExplorer.info&lt;/a&gt; was first concieved one weekend while talking with my 10yo son about geography. We were talking about how different geographical descriptions are like containers and can be neighboured or even overlap.&lt;/p&gt;
+
+&lt;p&gt;I figured the best way for him to get his head around it was to explore the world for himself. At the time I had a bit of interest in the &lt;a href='http://developer.yahoo.com/geo/geoplanet/'&gt;Yahoo! GeoPlanet&lt;/a&gt;. data so I set to creating &lt;a href='http://www.earthexplorer.info/'&gt;EarthExplorer.info&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The total code base took about a day all up including looking around for a decent template. It&amp;#8217;s a bit rough, but I wanted to get it out there.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m certainly interested in hearing any suggestions or receiving patches/updates.&lt;/p&gt;
+
+&lt;h1 id='how_it_works'&gt;How It Works&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href='http://developer.yahoo.com/geo/geoplanet/'&gt;Yahoo! GeoPlanet&lt;/a&gt; data is selected using the &lt;a href='http://developer.yahoo.com/yql/'&gt;Yahoo! Query Language&lt;/a&gt;. Since this kind of data doesn&amp;#8217;t change too often (except in the more politically volatile areas of the world), we kind of cheat and cache the geo data. We also query Wikipedia for any interesting information about the area being viewed. I was thinking of using &lt;a href='http://www.freebase.com/'&gt;Freebase&lt;/a&gt; as it looks like a &lt;em&gt;very&lt;/em&gt; interesting database, but the learning curve was too high at the time so it simply has a &lt;a href='http://www.freebase.com/'&gt;Freebase&lt;/a&gt; information popup in the search field.&lt;/p&gt;
+
+&lt;h1 id='application_configuration'&gt;Application Configuration&lt;/h1&gt;
+
+&lt;p&gt;You will need to configure the &lt;code&gt;earthexplorer.properties&lt;/code&gt; file. This file is used to populate the &lt;code&gt;app/config/settings.xml&lt;/code&gt; file in both the development and production environments. Once this has been completed, you can setup the development environment by running &lt;code&gt;agavi configure&lt;/code&gt;. When you are ready for production use &lt;code&gt;agavi deploy&lt;/code&gt;. The following settings show what needs to be entered into the &lt;code&gt;earthexplorer.properties&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;YAHOO.ymappid&lt;/code&gt; - &lt;a href='http://developer.yahoo.com/maps/'&gt;Yahoo! Maps&lt;/a&gt; application id&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;reCAPTCHA.publicKey&lt;/code&gt; and &lt;code&gt;reCAPTCHA.privateKey&lt;/code&gt; - &lt;a href='http://www.google.com/recaptcha/'&gt;reCAPTCHA&lt;/a&gt; keys for the contacts page&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;Google.site.verification&lt;/code&gt; - the site verification code provided by &lt;a href='http://www.google.com/webmasters/'&gt;Google Webmaster Tools&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;Google.analytics&lt;/code&gt; - &lt;a href='http://www.google.com/analytics/'&gt;Google Analytics&lt;/a&gt; tracking code&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;UserVoice.key&lt;/code&gt;, &lt;code&gt;UserVoice.host&lt;/code&gt;, &lt;code&gt;UserVoice.forum&lt;/code&gt; - codes from your &lt;a href='http://uservoice.com/'&gt;UserVoice&lt;/a&gt; account&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;Contact.email&lt;/code&gt; and &lt;code&gt;Contact.subjectPrefix&lt;/code&gt; - are used by the contact form for sending information to the configured email address. You can confiure a subject prefix that will be prepended to the subject the user has entered&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='google_adsense'&gt;Google AdSense&lt;/h2&gt;
+
+&lt;p&gt;I haven&amp;#8217;t worried about extracting the AdSense settings yet, so they are still hard coded in the template. You can find the AdSense module in &lt;code&gt;app/modules/AdSense&lt;/code&gt;. You&amp;#8217;ll have to replace the &lt;code&gt;google_ad_client&lt;/code&gt; and &lt;code&gt;google_ad_slot&lt;/code&gt; with the values from your own AdSense account.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, I have no problems at all with you leaving the ads in place with my codes :)&lt;/p&gt;
+
+&lt;h1 id='apache_configuration'&gt;Apache Configuration&lt;/h1&gt;
+
+&lt;p&gt;A sample apache configuration file can be found in &lt;code&gt;dev/apache/earthexplorer.info.conf&lt;/code&gt;. Obviously you will need to configure this to suit your particular host and paths.&lt;/p&gt;
+
+&lt;h1 id='installation'&gt;Installation&lt;/h1&gt;
+
+&lt;p&gt;This project is based on the &lt;a href='http://www.agavi.org/'&gt;Agavi PHP application framework&lt;/a&gt; so you need to be familiar with that. Be sure that the agavi shell script is in your path. If you don&amp;#8217;t have Agavi installed you can use the supplied agavi script &lt;code&gt;dev/bin/agavi.sh&lt;/code&gt;. Just be sure to edit the script so that &lt;code&gt;AGAVI_SOURCE_DIRECTORY&lt;/code&gt; points to the &lt;em&gt;absolute&lt;/em&gt; agavi library path in &lt;code&gt;libs/agavi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;From the shell execute the agavi/phing &amp;#8220;deploy&amp;#8221; task with &lt;code&gt;agavi deploy&lt;/code&gt;. The defaults are kept in the file &lt;code&gt;earthexplorer.properties&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id='permissions'&gt;Permissions&lt;/h1&gt;
+
+&lt;p&gt;Make sure the following directories are writable by the web server:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;app/cache&lt;/li&gt;
+
+&lt;li&gt;app/GeoNamesCache&lt;/li&gt;
+
+&lt;li&gt;app/YQLCache&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The agavi/phing &amp;#8220;deploy&amp;#8221; task will change the permissions to 777, but you may want to change this to something a little more secure on your installation&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/03/13/EarthExplorer-Is-Here.html</link>
+				<pubDate>Sun, 13 March 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>A Better Introduction</title>
+				<description>&lt;h2 id='what_are_you_doing_here'&gt;What Are You Doing Here?&lt;/h2&gt;
+
+&lt;p&gt;From my &lt;a href='/About'&gt;about page&lt;/a&gt; you will see I work for a very &lt;em&gt;corporate&lt;/em&gt; style company that likes to protect the software we produce.&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s fine, patents and copyright are still a big part of the corporate landscape, but it doesn&amp;#8217;t quite satisfy the need for community involvement and sharing with peers.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m also very interested in getting more involved with developer evangelism.&lt;/p&gt;
+
+&lt;h2 id='what_will_you_blog_about'&gt;What Will You Blog About?&lt;/h2&gt;
+
+&lt;p&gt;Here I&amp;#8217;ll be putting down ideas I have for projects in an attempt to get some of them going, or just some ideas and tinkering.&lt;/p&gt;
+
+&lt;p&gt;I expect my coding here will be a little slow since my &amp;#8220;day job&amp;#8221; at the moment does take up a lot of my energy, and I do love spending time with my family.&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/03/02/New-Template.html</link>
+				<pubDate>Wed, 02 March 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+			<item>
+				<title>Getting Started, EarthExplorer.info</title>
+				<description>&lt;h2 id='earthexplorerinfo'&gt;&lt;a href='http://earthexplorer.info/'&gt;EarthExplorer.info&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#8217;m in the process of cleaning up the code for &lt;a href='http://earthexplorer.info/'&gt;EarthExplorer.info&lt;/a&gt; so I can put it on &lt;a href='https://github.com/alchemycs'&gt;GitHub&lt;/a&gt;. Mainly adding a little documentation and cleaning out private data.&lt;/p&gt;
+
+&lt;h2 id='roadwork_needs_a_better_name'&gt;RoadWork (Needs a better name)&lt;/h2&gt;
+
+&lt;p&gt;Also in the process of putting together a management tool for &lt;a href='http://aws.amazon.com/route53/'&gt;AWS Route 53&lt;/a&gt;. Like all my projects (that I have control over anyway) it&amp;#8217;s based on the &lt;a href='http://www.agavi.org/'&gt;Agavi Professional PHP Application Framework&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='valentines_day'&gt;Valentines Day&lt;/h2&gt;
+
+&lt;p&gt;Since this first post is on Valentines Day, why not take a peek with a loved one at my wife&amp;#8217;s blog, &lt;a href='http://ashleysgarden.tumblr.com/'&gt;Ashley&amp;#8217;s Garden&lt;/a&gt;. It&amp;#8217;s been a little while since the last update, but she assures me she is ready to post her latest joy, a blue water lilly!&lt;/p&gt;</description>
+				<link>http://alchemycs.github.com/2011/02/14/Getting-Started.html</link>
+				<pubDate>Mon, 14 February 2011 00:00:00 GMT+10</pubDate>
+			</item>
+		
+	</channel>
+</rss>

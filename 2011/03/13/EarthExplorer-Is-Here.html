@@ -1,0 +1,297 @@
+<!doctype html>  
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <base href="/">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>EarthExplorer Is Here - GitHub Development Blog for AlchemyCS</title>
+  <meta name="description" content="GitHub Development Blog for AlchemyCS">
+  <meta name="author" content="AlchemyCS">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="/css/style.css?v=2">
+  <link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
+
+
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+ 
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="/js/libs/modernizr-1.6.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+	<div id="search" >
+	  (Sorry, not yet available)
+	  <!--
+	  <form method="get" id="searchform" action="">
+	    <input type="text" value="this doesn't work" name="s" id="s" class="txtField" />
+	    <input type="submit" id="searchsubmit" class="btnSearch" value="Find It &raquo;" />
+	  </form>
+	  -->
+	</div>
+    <nav id="primaryNavigation" >
+    	<ul>
+    		<li id="home"><a href="/">Home</a></li>
+    		<li id="about"><a href="/About/">About</a></li>
+    		<li id="archives"><a href="/Archives/">Archives</a></li>
+    	</ul>
+    </nav>
+    <header id="title">
+		<h1>EarthExplorer Is Here</h1>
+		<a href="http://github.com/alchemycs/">Development Blog for AlchemyCS on GitHub</a>
+    </header>
+  </div> <!--! end of #container -->
+    <div id="content" class="clearfix">
+    	<div class="col01">
+
+<section>
+	<article class="post">
+		<h1><a href="/2011/03/13/EarthExplorer-Is-Here.html">EarthExplorer Is Here</a></h1>
+		<div class="post-content">
+			<time datetime="2011-03-13" class="date-tab">
+				<span class="month">March</span>
+				<span class="day">13</span>
+			</time>
+			<p>At last! I&#8217;ve managed to get around to clearing out my private data from the code and now have it pushed up onto GitHub!</p>
+
+<p>Please feel free to <a href='http://github.com./alchemycs/EarthExplorer'>checkout the code</a> and the <a href='http://www.earthexplorer.info'>live site</a>.</p>
+
+<h1 id='introduction'>Introduction</h1>
+
+<p><a href='http://www.earthexplorer.info/'>EarthExplorer.info</a> was first concieved one weekend while talking with my 10yo son about geography. We were talking about how different geographical descriptions are like containers and can be neighboured or even overlap.</p>
+
+<p>I figured the best way for him to get his head around it was to explore the world for himself. At the time I had a bit of interest in the <a href='http://developer.yahoo.com/geo/geoplanet/'>Yahoo! GeoPlanet</a>. data so I set to creating <a href='http://www.earthexplorer.info/'>EarthExplorer.info</a>.</p>
+
+<p>The total code base took about a day all up including looking around for a decent template. It&#8217;s a bit rough, but I wanted to get it out there.</p>
+
+<p>I&#8217;m certainly interested in hearing any suggestions or receiving patches/updates.</p>
+
+<h1 id='how_it_works'>How It Works</h1>
+
+<p>The <a href='http://developer.yahoo.com/geo/geoplanet/'>Yahoo! GeoPlanet</a> data is selected using the <a href='http://developer.yahoo.com/yql/'>Yahoo! Query Language</a>. Since this kind of data doesn&#8217;t change too often (except in the more politically volatile areas of the world), we kind of cheat and cache the geo data. We also query Wikipedia for any interesting information about the area being viewed. I was thinking of using <a href='http://www.freebase.com/'>Freebase</a> as it looks like a <em>very</em> interesting database, but the learning curve was too high at the time so it simply has a <a href='http://www.freebase.com/'>Freebase</a> information popup in the search field.</p>
+
+<h1 id='application_configuration'>Application Configuration</h1>
+
+<p>You will need to configure the <code>earthexplorer.properties</code> file. This file is used to populate the <code>app/config/settings.xml</code> file in both the development and production environments. Once this has been completed, you can setup the development environment by running <code>agavi configure</code>. When you are ready for production use <code>agavi deploy</code>. The following settings show what needs to be entered into the <code>earthexplorer.properties</code> file:</p>
+
+<ul>
+<li><code>YAHOO.ymappid</code> - <a href='http://developer.yahoo.com/maps/'>Yahoo! Maps</a> application id</li>
+
+<li><code>reCAPTCHA.publicKey</code> and <code>reCAPTCHA.privateKey</code> - <a href='http://www.google.com/recaptcha/'>reCAPTCHA</a> keys for the contacts page</li>
+
+<li><code>Google.site.verification</code> - the site verification code provided by <a href='http://www.google.com/webmasters/'>Google Webmaster Tools</a></li>
+
+<li><code>Google.analytics</code> - <a href='http://www.google.com/analytics/'>Google Analytics</a> tracking code</li>
+
+<li><code>UserVoice.key</code>, <code>UserVoice.host</code>, <code>UserVoice.forum</code> - codes from your <a href='http://uservoice.com/'>UserVoice</a> account</li>
+
+<li><code>Contact.email</code> and <code>Contact.subjectPrefix</code> - are used by the contact form for sending information to the configured email address. You can confiure a subject prefix that will be prepended to the subject the user has entered</li>
+</ul>
+
+<h2 id='google_adsense'>Google AdSense</h2>
+
+<p>I haven&#8217;t worried about extracting the AdSense settings yet, so they are still hard coded in the template. You can find the AdSense module in <code>app/modules/AdSense</code>. You&#8217;ll have to replace the <code>google_ad_client</code> and <code>google_ad_slot</code> with the values from your own AdSense account.</p>
+
+<p>Alternatively, I have no problems at all with you leaving the ads in place with my codes :)</p>
+
+<h1 id='apache_configuration'>Apache Configuration</h1>
+
+<p>A sample apache configuration file can be found in <code>dev/apache/earthexplorer.info.conf</code>. Obviously you will need to configure this to suit your particular host and paths.</p>
+
+<h1 id='installation'>Installation</h1>
+
+<p>This project is based on the <a href='http://www.agavi.org/'>Agavi PHP application framework</a> so you need to be familiar with that. Be sure that the agavi shell script is in your path. If you don&#8217;t have Agavi installed you can use the supplied agavi script <code>dev/bin/agavi.sh</code>. Just be sure to edit the script so that <code>AGAVI_SOURCE_DIRECTORY</code> points to the <em>absolute</em> agavi library path in <code>libs/agavi</code></p>
+
+<p>From the shell execute the agavi/phing &#8220;deploy&#8221; task with <code>agavi deploy</code>. The defaults are kept in the file <code>earthexplorer.properties</code>.</p>
+
+<h1 id='permissions'>Permissions</h1>
+
+<p>Make sure the following directories are writable by the web server:</p>
+
+<ul>
+<li>app/cache</li>
+
+<li>app/GeoNamesCache</li>
+
+<li>app/YQLCache</li>
+</ul>
+
+<p>The agavi/phing &#8220;deploy&#8221; task will change the permissions to 777, but you may want to change this to something a little more secure on your installation</p>
+			<div class="meta">
+				<!--posted under <a href="#">category</a> | <a href="#">comments</a>-->
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="alchemycs">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+		</div>
+	</article>
+</section>
+    	</div>
+    	<aside class="col02">
+    		<nav class="recent-posts">
+    			<ul>
+    			 
+    				<li>
+    					<a href="/2013/07/31/Nodebots-Day-Sydney.html">Nodebots Day Sydney</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2013/01/28/Unit-testing-nodejs-modules-with-Q-promises-or-why-is-my-code-always-perfect.html">Unit testing nodejs modules with Q promises (or why is my code always perfect?)</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2012/12/22/Christmas-Build.html">Christmas Build - Better Than CSS and HTML</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2012/04/09/How-We-Use-In-Game-Purchases-To-Teach-Our-Son-Personal-Responsibility.html">How We Use In-Game Purchases To Teach Our Son Personal Responsibility</a>
+    				</li>
+    			 
+    				<li>
+    					<a href="/2011/11/21/Another_Breach_and_Rant_On_Privacy.html">Another Breach/Rant On Privacy</a>
+    				</li>
+    			
+    			</ul>
+				<div class="postit-bottom">
+					<a href="/Archives/">All Posts</a>
+				</div>    			
+    		</nav>
+    		<div id="catagoryContainer" style="display:none">
+	    		<div class="categories-top"></div>
+	    		<nav class="categories">
+	    			<ul>
+	    				<li>
+	    					<a href="#">Cat1</a>
+	    				</li>
+	    				<li>
+	    					<a href="#">Cat2</a>
+	    				</li>
+	    			</ul>
+	    		</nav>
+	    		<div class="categories-bottom"></div>
+	    	</div><!-- end of category container -->
+		<nav>
+		<h1>Other Links</h1>
+		  <ul>
+		    <li>
+    			<a href="http://twitter.com/alchemycs" title="Follow me on twitter">Twitter</a>		    
+		    </li>
+		    <li>
+    			<a href="http://github.com/alchemycs" title="My projects on GitHub">GitHub Projects</a>
+		    </li>
+		    <li>
+    			<a href="http://earthexplorer.info"
+    	title="Earth Explorer - Live!">Earth Explorer - Live!</a>
+		    </li>
+<!--		    <li>
+    			<a href="http://alchemycs.github.com/EarthExplorer"
+    	title="Earth Explorer Blog">Earth Explorer Blog</a>
+		    </li>-->
+<!--                    
+		    <li>
+    			<a href="http://careerprogrammer.tumblr.com"
+    	title="Career Programmer Blog">Career Programmer Blog</a>
+		    </li>
+-->
+		    <li>
+                    <li>
+                        <a href="http://coderwall.com/alchemycs" title="My Coderwall">My Coderwall Achievements</a>
+                    </li>
+    			<a href="http://complispace.github.com" title="CompliSpace Developer Blog">CompliSpace Developer Blog</a>
+		    </li>
+		    <li>
+    			<a href="http://linkedin.com/in/mrmchugh"
+    	title="Linked IN">Linked IN</a>
+		    </li>
+		  </ul>
+		</nav>
+                <section class="coderwall" data-coderwall-username="alchemycs" data-coderwall-orientation="horizontal"></section>                
+		<section style="padding-top: .5em;">
+		  <h1>Employment and Work</h1>
+		  I'm certainly open to short term, or long term
+    	casual work opportunities. Drop me a line and let's see how I
+    	can help on your project!
+		 </section>
+                <section style="padding-top:.5em; text-align:center">
+                      <a href="https://developer.mozilla.org/web/?WT.mc_id=mdn37"><img src="https://developer.mozilla.org/media/img/promote/promobutton_mdn37.png" alt="MDN is your Web Developer Toolbox for docs, demos and more on HTML, CSS, JavaScript and other Web standards and open technologies." /></a>                    
+                </section>
+	</aside>
+    </div>
+    <footer>
+    	<div class="background"></div>
+    	<div class="txt">
+    		<p>
+	    		This is where I will be focussing on my own development 
+	    		projects. It could be experiments, ideas or full blown projects 
+	    		- I have a few in mind. Please feel free to email me: <a href='mailto:developer@yrucalling.me'>developer@yrucalling.me</a>
+    		</p>
+   	</div>
+    	<span class="rss">
+    		<a href="/rss-feed.xml">Get the feed!</a>
+    	</span>
+    </footer>
+
+
+  <!-- Javascript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+  
+  
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="/js/plugins.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
+  
+  <!-- end concatenated and minified scripts-->
+  
+  
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
+  <!-- yui profiler and profileviewer - remove for production -->
+  <!-- 
+  <script src="js/profiling/yahoo-profiling.min.js"></script>
+  <script src="js/profiling/config.js"></script>
+   -->
+  <!-- end profiling code -->
+
+
+  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
+       change the UA-XXXXX-X to be your site's ID -->
+  <script>
+  var _gaq = [['_setAccount', 'UA-21775306-1'], ['_trackPageview']];
+   (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+ </script>
+  
+</body>
+</html>
