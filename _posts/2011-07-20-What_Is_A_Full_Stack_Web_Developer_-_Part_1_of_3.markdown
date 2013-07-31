@@ -32,7 +32,7 @@ server and provision hosting in a data center. It could also be a cloud service
 such as Amazon Web Services or Google App Engine.
 
 Next comes the installation of the [Operating System][] (OS). This is what makes
-the computer work in the first place. It coordinates between all the [hardware]
+the computer work in the first place. It coordinates between all the hardware
 input/output devices and the [programs][] that run on the computer
 
 Finally there are the supporting services. This is not just software installed 
